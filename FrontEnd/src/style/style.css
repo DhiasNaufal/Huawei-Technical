@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
+:root {
+  --main-c: #d00328;
+}
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+}
+main {
+  display: flex;
+  min-height: 100vh;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-field {
+  width: 500px;
+  padding: 10px;
+}
+#form-field h1 {
+  font-size: 40px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  border-radius: 7px;
+  border: 1px solid gray;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: var(--main-c);
+  color: white;
+  border: none;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}

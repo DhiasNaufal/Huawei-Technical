@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huawei Technical Test</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <img
+        src="assets/Huawei_Standard_logo.svg.png"
+        alt="Logo_Huawei"
+        width="300px"
+      />
+      <div id="form-field">
+        <h1>Form Pendaftaran</h1>
+        <form onsubmit="return validateForm(event)">
+          <span id="errorForm" class="error"></span>
+          <div>
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              placeholder="Nama Lengkap"
+            />
+          </div>
+          <span id="errorNama" class="error"></span>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Alamat Email"
+            /><br />
+          </div>
+          <span id="errorEmail" class="error"></span>
+          <div>
+            <input
+              type="tel"
+              name="telpon"
+              id="telpon"
+              placeholder="Nomor Telepon"
+            /><br />
+          </div>
+          <span id="errorTelpon" class="error"></span>
+          <input type="submit" value="Daftar" />
+        </form>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
