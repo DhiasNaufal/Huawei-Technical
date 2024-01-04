@@ -45,7 +45,7 @@ Technical test IT Developer Huawei
    http-server -p 5000
    ```
 
-   Aplikasi frontend akan berjalan di `http://localhost:3000` atau port yang telah ditentukan.
+   Aplikasi frontend akan berjalan di `http://localhost:5000` atau port yang telah ditentukan.
 
 ## Menjalankan Pengujian Otomatis (Selenium)
 
